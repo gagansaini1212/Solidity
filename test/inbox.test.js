@@ -6,10 +6,10 @@ const web3 = new Web3(ganache.provider());
 beforeEach(() => {
     //Get list of all accounts
     web3.eth.getAccounts().then(fetchedAccounts => {
-        console.log(fetchedAccounts)
+        console.log(fetchedAccounts) 
     });
 
-    // Use one of those accounts to deploy
+    // Use one of these accounts to deploy
     //the contract
 });
 
